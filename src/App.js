@@ -8,9 +8,10 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      <Greet /> 
-      <Hello/>
-      <Welcome/> 
+      <Greet name="furkan"/> 
+      <Greet name="fatih" />
+     {/*  <Hello/>
+      <Welcome/> */}
     </div>
   );
 }
