@@ -11,12 +11,12 @@ export class Counter extends Component {
     increment(){
         this.setState({
             count : this.state.count + 1
-        })
+        }, () => {console.log('Callback Value = ' , this.state.count)});
     }
     decrement(){
         this.setState({
             count : this.state.count - 1
-        })
+        }, () => {console.log('Callback Value = ' , this.state.count)})
     }
     render() {
         return (
