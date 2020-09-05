@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Counter />
+      <Greet name="furkan" heroName="Batman" />
 
       {/*
       <Message />
